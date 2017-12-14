@@ -1,0 +1,47 @@
+<div id='cart'>
+  <h2>Your Shopping Cart</h2>
+  <ul class='cart-items'></ul>
+  <div class='total'>
+    <a class='checkout'>
+      Je valide mon sac de linge sale !
+    </a>
+    <p class='error'></p>
+  </div>
+</div>
+<div class='wrap' id='wrap'>
+  <header>
+    <a class='logo' href='#'>
+      So Pressing
+    </a>
+    <a class='cart-link' href='#menu'>
+        <span>Cart</span>      
+      <span class='returnToShop'>&larr; Back</span>
+      <span class='cart-quantity empty'>0</span>
+    </a>
+  </header>
+  <section class='shop'></section>
+  <footer>
+    <p>Team de foouuulie</p>
+  </footer>
+</div>
+<!-- / Product Templates for Shop & Cart -->
+<script id='productTemplate'>
+  <div class="product">
+  <h1></h1>
+  <p></p>
+  <div class="button">
+  <a class="addtocart">
+  <div class="add">Sélectionner</div>
+  <div class="added">Item ajouté ! </div>
+  </a>
+  </div>
+  </div>
+</script>
+<script id='cartItem'>
+  <li><div class="cart-product">
+  <input class="quantity" value="1">
+  </div><div class="cart-description">
+  <h3></h3>
+  <span class="subtotal"></span>
+  </div></li>
+</script>
